@@ -178,7 +178,7 @@ RCT_EXPORT_METHOD(stopUpdatingLocation)
                           @"district": regeocode.district ?: [NSNull null],
                           @"citycode": regeocode.citycode ?: [NSNull null],
                           @"adcode": regeocode.adcode ?: [NSNull null],
-                          @"street": regeocode.street,
+                          @"street": regeocode.street ?: [NSNull null],
                           @"number": regeocode.number ?: [NSNull null],
                           @"POIName": regeocode.POIName ?: [NSNull null],
                           @"AOIName": regeocode.AOIName ?: [NSNull null]
